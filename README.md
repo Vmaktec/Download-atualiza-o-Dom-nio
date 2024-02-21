@@ -23,19 +23,19 @@ pip install selenium webdriver_manager
 
 
 ## Configuração
-- Defina o caminho para a pasta de download na variável `download_folder`. Por padrão, os arquivos serão baixados no diretório atual.
+- Defina o caminho para a pasta de download na variável `download_folder`. Por padrão, os arquivos serão baixados no diretório Downloads caso não seja alterado.
 - Certifique-se de ter o Google Chrome instalado em sua máquina.
 
 
 
 
 ## Utilização
-1. Execute o script Python `download_script.py`.
-python download_script.py
+1. Execute o script Python `juntos.py`.
+python juntos.py
 
 2. O script abrirá uma instância do Google Chrome automaticamente e acessará a URL especificada.
 3. Ele clicará nos links relevantes para iniciar o download dos arquivos de atualização.
-4. Os arquivos serão baixados na pasta configurada em `download_folder`.
+4. Os arquivos serão baixados em Downloads ou na pasta configurada em `download_folder`.
 
 
 
